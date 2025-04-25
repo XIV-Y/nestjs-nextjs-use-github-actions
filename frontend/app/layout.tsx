@@ -33,6 +33,11 @@ export default function RootLayout({
                     About
                   </a>
                 </li>
+                <li>
+                  <a href="/contact" className="hover:underline">
+                    お問い合わせ
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
