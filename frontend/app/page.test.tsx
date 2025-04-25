@@ -47,4 +47,10 @@ describe("Home", () => {
 
     expect(listItems.length).toBe(3);
   });
+
+  it("ホームページのスナップショットが一致すること", () => {
+    const { container } = render(<Home />);
+
+    expect(container).toMatchSnapshot();
+  });
 });
