@@ -5,7 +5,7 @@ export default function Home() {
     <div className="space-y-8">
       <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-12 rounded-xl shadow-lg">
         <h1 className="text-4xl font-bold mb-4" data-testid="main-heading">
-          Next.js + Vitestへようこそ！
+          Next.js + Vitestへようこそ
         </h1>
         <p className="text-xl mb-6">
           モダンなウェブアプリケーション開発とテスト自動化の素晴らしい組み合わせを体験しましょう。
