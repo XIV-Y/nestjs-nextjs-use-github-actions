@@ -1,0 +1,96 @@
+import React from "react";
+
+export default function About() {
+  return (
+    <div className="space-y-8">
+      <section className="bg-gradient-to-r from-green-500 to-teal-600 text-white p-12 rounded-xl shadow-lg">
+        <h1 className="text-4xl font-bold mb-4" data-testid="about-heading">
+          プロジェクトについて
+        </h1>
+        <p className="text-xl mb-6">
+          Next.js と Vitest を組み合わせた最新のフロントエンド開発環境
+        </p>
+      </section>
+
+      <div className="bg-white p-8 rounded-lg shadow-md mt-8">
+        <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          プロジェクトの目的
+        </h2>
+        <p className="text-gray-600 mb-6" data-testid="about-description">
+          このプロジェクトは、Next.js 15 の新しいApp
+          Routerアーキテクチャを使用した最新のReactアプリケーションを構築し、
+          Vitestを用いた効率的なテスト方法を実演することを目的としています。Tailwind
+          CSSを使用して、 モダンで美しいUIを簡単に構築できることも示しています。
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-8 mt-8">
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">
+              技術スタック
+            </h3>
+            <ul className="space-y-2 text-gray-600">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span> Next.js 15 (App
+                Router)
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span> React 19
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span> TypeScript
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span> Tailwind CSS
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span> Vitest + Testing
+                Library
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">
+              実装された機能
+            </h3>
+            <ul className="space-y-2 text-gray-600">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span>{" "}
+                レスポンシブデザイン
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span>{" "}
+                コンポーネントの単体テスト
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span>{" "}
+                ページのレンダリングテスト
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">●</span>{" "}
+                モダンなUI/UXデザイン
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-8 p-6 bg-blue-50 rounded-lg border border-blue-100">
+          <h3 className="text-xl font-semibold text-blue-800 mb-3">始め方</h3>
+          <pre className="bg-gray-800 text-gray-100 p-4 rounded-md overflow-x-auto">
+            <code>
+              git clone https://github.com/example/nextjs-vitest-example.git
+              <br />
+              cd nextjs-vitest-example
+              <br />
+              npm install
+              <br />
+              npm run dev # 開発サーバーの起動
+              <br />
+              npm test # テストの実行
+            </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  );
+}
