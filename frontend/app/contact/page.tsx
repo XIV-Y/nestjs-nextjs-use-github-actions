@@ -37,6 +37,8 @@ export default function Contact() {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
+
+    console.log("handleChange", name, value);
     setFormData((prev) => ({
       ...prev,
       [name]: value,
@@ -125,7 +127,7 @@ export default function Contact() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
+                className={`text-black w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
                   errors.name
                     ? "border-red-500 focus:ring-red-500"
                     : "border-gray-300 focus:ring-indigo-500"
@@ -150,12 +152,11 @@ export default function Contact() {
                 メールアドレス
               </label>
               <input
-                type="email"
                 id="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
+                className={`text-black w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
                   errors.email
                     ? "border-red-500 focus:ring-red-500"
                     : "border-gray-300 focus:ring-indigo-500"
@@ -185,7 +186,7 @@ export default function Contact() {
                 rows={5}
                 value={formData.message}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
+                className={`text-black w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
                   errors.message
                     ? "border-red-500 focus:ring-red-500"
                     : "border-gray-300 focus:ring-indigo-500"
