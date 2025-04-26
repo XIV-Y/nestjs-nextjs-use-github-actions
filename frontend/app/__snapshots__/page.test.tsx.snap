@@ -1,0 +1,157 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home > ホームページのスナップショットが一致すること 1`] = `
+<div>
+  <div
+    class="space-y-8"
+  >
+    <section
+      class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-12 rounded-xl shadow-lg"
+    >
+      <h1
+        class="text-4xl font-bold mb-4"
+        data-testid="main-heading"
+      >
+        Next.js + Vitestへようこそ
+      </h1>
+      <p
+        class="text-xl mb-6"
+      >
+        モダンなウェブアプリケーション開発とテスト自動化の素晴らしい組み合わせを体験しましょう。
+      </p>
+      <a
+        href="/about"
+      >
+        詳細を見る
+      </a>
+    </section>
+    <div
+      class="grid md:grid-cols-2 gap-8 mt-12"
+    >
+      <div
+        class="bg-white p-6 rounded-lg shadow-md"
+        data-testid="feature-card"
+      >
+        <h2
+          class="text-2xl font-bold text-gray-800 mb-4"
+        >
+          Appルーターの特徴
+        </h2>
+        <ul
+          class="space-y-2 text-gray-600"
+        >
+          <li
+            class="flex items-center"
+          >
+            <svg
+              class="w-5 h-5 text-green-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            レイアウト、ページ、コンポーネント間の明確な分離
+          </li>
+          <li
+            class="flex items-center"
+          >
+            <svg
+              class="w-5 h-5 text-green-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            サーバーコンポーネントによるパフォーマンス最適化
+          </li>
+          <li
+            class="flex items-center"
+          >
+            <svg
+              class="w-5 h-5 text-green-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            ルーティングの簡素化とネストされたルート
+          </li>
+        </ul>
+      </div>
+      <div
+        class="bg-white p-6 rounded-lg shadow-md"
+      >
+        <h2
+          class="text-2xl font-bold text-gray-800 mb-4"
+        >
+          Vitestの利点
+        </h2>
+        <ul
+          class="space-y-2 text-gray-600"
+        >
+          <li
+            class="flex items-center"
+          >
+            <svg
+              class="w-5 h-5 text-green-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Jest互換のAPIで学習曲線が緩やか
+          </li>
+          <li
+            class="flex items-center"
+          >
+            <svg
+              class="w-5 h-5 text-green-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Viteベースの超高速テスト実行
+          </li>
+          <li
+            class="flex items-center"
+          >
+            <svg
+              class="w-5 h-5 text-green-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            TypeScriptのサポートが充実
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
