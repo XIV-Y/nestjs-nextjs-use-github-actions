@@ -7,7 +7,7 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
 
-  // Github Actions Test
+  // Github Actions Test #1
 
   await app.listen(3000);
 }
