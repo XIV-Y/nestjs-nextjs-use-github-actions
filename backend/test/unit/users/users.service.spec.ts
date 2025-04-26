@@ -87,7 +87,7 @@ describe('UsersService', () => {
 
       const updatedUser = service.update(createdUser.id, updateUserDto);
 
-      expect(updatedUser.id).toBe(999);
+      expect(updatedUser.id).toBe(createdUser.id);
       expect(updatedUser.name).toBe(updateUserDto.name);
       expect(updatedUser.email).toBe(createdUser.email);
       expect(updatedUser.password).toBe(createdUser.password);
