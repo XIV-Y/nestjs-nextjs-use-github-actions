@@ -1,7 +1,8 @@
 import Link from 'next/link';
 
 export default function Home() {
-  // Github Action Test #6
+  // Github Action Test #7
+
   return (
     <div className="space-y-8">
       <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-12 rounded-xl shadow-lg">
