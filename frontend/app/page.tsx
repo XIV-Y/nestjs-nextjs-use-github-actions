@@ -16,7 +16,7 @@ export default function Home() {
           href="/about"
           className="bg-white text-purple-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
         >
-          詳細を 見る
+          詳細を見る
         </Link>
       </section>
 
