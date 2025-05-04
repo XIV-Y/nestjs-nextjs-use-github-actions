@@ -2,7 +2,7 @@ name: Discord通知
 
 on:
   workflow_run:
-    workflows: ['Discord Notifications']
+    workflows: ['Frontend', 'Backend', 'E2E Tests']
     types:
       - completed
 
